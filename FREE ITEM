@@ -1,0 +1,59 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("SKULL DOORS SCRIPT", "Midnight")
+local Tab = Window:NewTab("items")
+local Section = Tab:NewSection("items")
+Section:NewButton("jeff the killer plushie", "ButtonInfo", function()
+local tool = game:GetObjects("rbxassetid://13069619857")[1] tool.Parent = game.Players.LocalPlayer.Backpack
+    print("Clicked")
+end)
+Section:NewButton("cat", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Maxwell%20Plushie"))()
+    print("Clicked")
+end)
+Section:NewButton("Candy", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/persopoiu/scripts/main/candyscript/candy.lua"))()
+local dread=game:GetObjects("rbxassetid://13071801863")[1];dread.Parent=game.Players.LocalPlayer.Backpack
+    print("Clicked")
+end)
+Section:NewButton("dread plushie", "ButtonInfo", function()
+local dread=game:GetObjects("rbxassetid://13071801863")[1];dread.Parent=game.Players.LocalPlayer.Backpack
+    print("Clicked")
+end)
+Section:NewButton("seekgun", "ButtonInfo", function()
+_G.Uses = 1
+_G.Range = 30
+--[[
+_G.ShopName = ""
+_G.ShopDescription = ""
+_G.ShopPrice = 300
+
+_G.launchForce = 20
+]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/persopoiu/scripts/main/seekgun.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("laser Gun", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+    print("Clicked")
+end)
+Section:NewButton("chocolate", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Chocolate%20Bar%20Script"))()
+    print("Clicked")
+end)
+Section:NewButton("magic, book", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Magic%20Book"))()
+    print("Clicked")
+end)
+Section:NewButton("purple flashlight", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
+    print("Clicked")
+end)
+Section:NewButton("Gummy flashlight", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Gummy%20Flashlight%20Script"))()
+    print("Clicked")
+end)
+Section:NewButton("Scanner", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+    print("Clicked")
+  end)
